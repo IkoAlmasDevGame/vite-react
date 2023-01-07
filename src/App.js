@@ -3,6 +3,7 @@ import './Style/LandingPage.css';
 import IntroApp from './Components/Intro';
 import NavigationBar from './Components/Navigation';
 import CurrentNews from './Components/latest';
+import OldNews from './Components/old';
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
         <CurrentNews />
       </div>
       <div className='newsold'>
-        
+        <OldNews />
       </div>
       <div className='create'>
         
