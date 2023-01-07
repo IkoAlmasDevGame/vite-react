@@ -12,12 +12,13 @@ const NavigationBar = () => {
                     textShadow : "2px 1px 2px black"}}>My News Private</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                             <Navbar.Collapse className="collapse navbar-collapse" id="navbarSupportedContent">
-                                <Nav className='fw-bold' style={{margin : "auto"}}>
-                                    <Nav.Link href='#home'>Home</Nav.Link>
-                                    <Nav.Link href=''>About</Nav.Link>
-                                    <Nav.Link href=''>Contact</Nav.Link>
-                                    <Nav.Link href='#terbaru'>Berita Baru</Nav.Link>
-                                    <Nav.Link href=''>Berita Lama</Nav.Link>
+                                <Nav className='fw-bold' style={{margin : "auto", color : "white", fontWeight : "500", 
+                                fontSize : "medium"}}>
+                                    <Nav.Link style={{color : "white", textShadow : "1px 2px black"}} href='#home'>Home</Nav.Link>
+                                    <Nav.Link style={{color : "white", textShadow : "2px 1px black"}} href=''>About</Nav.Link>
+                                    <Nav.Link style={{color : "white", textShadow : "3px 1px black"}} href=''>Contact</Nav.Link>
+                                    <Nav.Link style={{color : "white", textShadow : "2px 1px black"}} href='#terbaru'>Berita Baru</Nav.Link>
+                                    <Nav.Link style={{color : "white", textShadow : "2px 1px black"}} href=''>Berita Lama</Nav.Link>
                                 </Nav>
                     </Navbar.Collapse>
                 </Container>
